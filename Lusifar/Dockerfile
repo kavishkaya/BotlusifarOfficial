@@ -1,4 +1,4 @@
-FROM kavishkaya/botlusifar:new
+FROM lkruwan/botlusifar:new
 
 RUN git clone https://github.com/kavishkaya/BotlusifarOfficial /root/WhatsAsenaDuplicated
 WORKDIR /root/WhatsAsenaDuplicated/
