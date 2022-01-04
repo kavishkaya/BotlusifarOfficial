@@ -56,7 +56,7 @@ const KSK = Config.WORKTYPE == 'public' ? false : true
         ytgot += '🧞‍♂️ *' + video.title + '*' + '\n' + '*🧚‍♀️Duration:-* ' +  video.duration +  '\n' + '*📎Link:-* ' + video.url + '\n'+ '*📅time ago:-* ' + video.ago + '\n\n'
     });
 
-    await message.client.sendMessage(message.jid, '*❖  Lusifar youtube search Engine ❖*\n' + 'Result ...' + '\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n' + ytgot,MessageType.text, {quoted: message.data});
+    await message.client.sendMessage(message.jid, '*❖  Nethmika Bot youtube search Engine ❖*\n' + 'Result ...' + '\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n' + ytgot,MessageType.text, {quoted: message.data});
 }));
 
 lusifar.addCommand({pattern: 'yt ?(.*)', fromMe: true,  deleteCommand: false, desc: Lang.YT_DESC}, (async (message, match) => { 
